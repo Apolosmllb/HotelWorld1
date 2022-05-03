@@ -36,6 +36,11 @@ export class HotelsService {
     return throwError(() => new Error('Something happened with request, please try again later'));
   }
 
+  create(item:any):Observable<Hotel>{
+    return this.http.post<Hotel>(this.basePath,JSON.stringify(item),this.httpOptions)
+      .pipe(retry(2),catchError(this.handleError));
+
+  }
   getById(id: any): Observable<Hotel> {
     return this.http.get<Hotel>(`${this.basePath}/${id}`, this.httpOptions)
       .pipe(

@@ -36,8 +36,13 @@ import { HomeGComponent } from './components/hotelguest/home-g/home-g.component'
 import { NavbarGComponent } from './components/hotelguest/navbar-g/navbar-g.component';
 import {HotelsService} from "./components/services/hotels.service";
 
-
-
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatListModule} from '@angular/material/list';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import{ MatRadioModule} from "@angular/material/radio";
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatSelectModule } from '@angular/material/select';
+import { LayoutModule } from '@angular/cdk/layout';
 
 
 
@@ -77,7 +82,16 @@ import {HotelsService} from "./components/services/hotels.service";
     MatInputModule,
     MatToolbarModule,
     MatIconModule,
-    HttpClientModule
+    HttpClientModule,
+    MatDatepickerModule,
+    MatListModule,
+    MatSlideToggleModule,
+    MatRadioModule,
+    MatCheckboxModule,
+    MatSelectModule,
+    LayoutModule
+
+
   ],
   providers: [EmployeesService,
   HotelsService],
