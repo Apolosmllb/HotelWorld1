@@ -31,9 +31,18 @@ import { HttpClientModule } from "@angular/common/http";
 import { ClientsComponent } from './components/hotelmanager/clients/clients.component';
 import { RegisterclientsComponent } from './components/hotelmanager/registerclients/registerclients.component';
 import { InventoryComponent } from './components/hotelmanager/inventory/inventory.component';
+import { HotelesComponent } from './components/hotelguest/hoteles/hoteles.component';
+import { HomeGComponent } from './components/hotelguest/home-g/home-g.component';
+import { NavbarGComponent } from './components/hotelguest/navbar-g/navbar-g.component';
+import {HotelsService} from "./components/services/hotels.service";
 
-
-
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatListModule} from '@angular/material/list';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import{ MatRadioModule} from "@angular/material/radio";
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatSelectModule } from '@angular/material/select';
+import { LayoutModule } from '@angular/cdk/layout';
 
 
 
@@ -48,7 +57,10 @@ import { InventoryComponent } from './components/hotelmanager/inventory/inventor
     NavbarComponent,
     ClientsComponent,
     RegisterclientsComponent,
-    InventoryComponent
+    InventoryComponent,
+    HotelesComponent,
+    HomeGComponent,
+    NavbarGComponent
 
 
   ],
@@ -70,9 +82,19 @@ import { InventoryComponent } from './components/hotelmanager/inventory/inventor
     MatInputModule,
     MatToolbarModule,
     MatIconModule,
-    HttpClientModule
+    HttpClientModule,
+    MatDatepickerModule,
+    MatListModule,
+    MatSlideToggleModule,
+    MatRadioModule,
+    MatCheckboxModule,
+    MatSelectModule,
+    LayoutModule
+
+
   ],
-  providers: [EmployeesService],
+  providers: [EmployeesService,
+  HotelsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

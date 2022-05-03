@@ -8,6 +8,8 @@ import {RoomsComponent} from "./components/hotelmanager/rooms/rooms.component";
 import {ClientsComponent} from "./components/hotelmanager/clients/clients.component";
 import {InventoryComponent} from "./components/hotelmanager/inventory/inventory.component";
 import {RegisterclientsComponent} from "./components/hotelmanager/registerclients/registerclients.component";
+import {HotelesComponent} from "./components/hotelguest/hoteles/hoteles.component";
+import {HomeGComponent} from "./components/hotelguest/home-g/home-g.component";
 
 
 const routes: Routes = [
@@ -20,6 +22,8 @@ const routes: Routes = [
   { path: 'employees',component:EmployeesComponent},
   { path: 'invetory',component:InventoryComponent},
   { path: 'registerclients',component:RegisterclientsComponent},
+  { path: 'hotels',component:HotelesComponent},
+  { path: 'home-g',component:HomeGComponent},
 ];
 
 @NgModule({
