@@ -211,5 +211,111 @@
       "id": 13,
       "apiId": "v1"
     }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "image": "Creamen",
+      "title": "ccreamen0@mashable.com",
+      "price": 1715819214,
+      "description": "",
+      "apiId": "v1"
+    },
+    {
+      "id": 2,
+      "name": "Mariann",
+      "lastname": "Mixture",
+      "gmail": "mmixture1@list-manage.com",
+      "phone": 5388520732,
+      "apiId": "v1"
+    },
+    {
+      "id": 3,
+      "name": "Bobbye",
+      "lastname": "Langstaff",
+      "gmail": "blangstaff2@theatlantic.com",
+      "phone": 5891120597,
+      "apiId": "v1"
+    },
+    {
+      "id": 4,
+      "name": "Stacee",
+      "lastname": "Ferrier",
+      "gmail": "sferrier3@rakuten.co.jp",
+      "phone": 5248695781,
+      "apiId": "v1"
+    },
+    {
+      "id": 5,
+      "name": "Tessie",
+      "lastname": "Averies",
+      "gmail": "taveries4@csmonitor.com",
+      "phone": 4686125599,
+      "apiId": "v1"
+    },
+    {
+      "id": 6,
+      "name": "Bryce",
+      "lastname": "Eger",
+      "gmail": "beger5@desdev.cn",
+      "phone": 2596502401,
+      "apiId": "v1"
+    },
+    {
+      "id": 7,
+      "name": "Val",
+      "lastname": "Marciek",
+      "gmail": "vmarciek6@weather.com",
+      "phone": 6231336439,
+      "apiId": "v1"
+    },
+    {
+      "id": 8,
+      "name": "Ciel",
+      "lastname": "Chard",
+      "gmail": "cchard7@ovh.net",
+      "phone": 1646797344,
+      "apiId": "v1"
+    },
+    {
+      "id": 9,
+      "name": "Stanislaw",
+      "lastname": "Nockolds",
+      "gmail": "snockolds8@prnewswire.com",
+      "phone": 6095554865,
+      "apiId": "v1"
+    },
+    {
+      "id": 10,
+      "name": "Lil",
+      "lastname": "Swan",
+      "gmail": "lswan9@drupal.org",
+      "phone": 7029590181,
+      "apiId": "v1"
+    },
+    {
+      "name": "Miner ",
+      "lastname": "Lozano",
+      "gmail": "minermllb@mail.com",
+      "phone": 9431276487,
+      "id": 11,
+      "apiId": "v1"
+    },
+    {
+      "name": "roberto",
+      "lastname": "espinoza",
+      "gmail": "rober@gmail.com",
+      "phone": 9455556822,
+      "id": 12,
+      "apiId": "v1"
+    },
+    {
+      "name": "Marta ",
+      "lastname": "Nockolds",
+      "gmail": "marta123@gmail.com",
+      "phone": 4568213495,
+      "id": 13,
+      "apiId": "v1"
+    }
   ]
 }

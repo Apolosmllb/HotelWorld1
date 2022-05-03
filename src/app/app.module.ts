@@ -31,6 +31,10 @@ import { HttpClientModule } from "@angular/common/http";
 import { ClientsComponent } from './components/hotelmanager/clients/clients.component';
 import { RegisterclientsComponent } from './components/hotelmanager/registerclients/registerclients.component';
 import { InventoryComponent } from './components/hotelmanager/inventory/inventory.component';
+import { HotelesComponent } from './components/hotelguest/hoteles/hoteles.component';
+import { HomeGComponent } from './components/hotelguest/home-g/home-g.component';
+import { NavbarGComponent } from './components/hotelguest/navbar-g/navbar-g.component';
+import {HotelsService} from "./components/services/hotels.service";
 
 
 
@@ -48,7 +52,10 @@ import { InventoryComponent } from './components/hotelmanager/inventory/inventor
     NavbarComponent,
     ClientsComponent,
     RegisterclientsComponent,
-    InventoryComponent
+    InventoryComponent,
+    HotelesComponent,
+    HomeGComponent,
+    NavbarGComponent
 
 
   ],
@@ -72,7 +79,8 @@ import { InventoryComponent } from './components/hotelmanager/inventory/inventor
     MatIconModule,
     HttpClientModule
   ],
-  providers: [EmployeesService],
+  providers: [EmployeesService,
+  HotelsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
